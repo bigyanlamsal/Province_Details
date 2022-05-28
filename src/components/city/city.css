@@ -1,0 +1,149 @@
+.mainContainer{
+    height: 120vh;
+    text-align: center;
+}
+.top{
+    height: 5vh;
+    padding: 0px 0px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 20px 0px;
+    flex-wrap: wrap;
+}
+.top h4{
+    padding: 10px;
+    font-size: 2vh;
+}
+.province{
+    height: 100%;
+    width: 10%;
+}
+.district{
+    height: 100%;
+    width: 10%;
+}
+.country{
+    height: 100%;
+    width: 10%;
+}
+.provinceNo{
+    height: 100%;
+    width: 10%;
+}
+.weatherApi{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0px 5px 0px;
+    padding: 15px 0px 0px 0px;
+
+}
+.weatherApi h2{
+    font-size: 2vh;
+    color: black;
+    padding: 15px;
+}
+.time1{
+    height: 100%;
+    width: 10%;
+}
+.temp1{
+    height: 100%;
+    width: 10%;
+}
+.minTemp{
+    height: 100%;
+    width: 10%;
+}
+.feelsLike{
+    height: 100%;
+    width: 10%;
+}
+.provinceDescription{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0px 5px 0px;
+    padding: 25px 0px 0px 0px;
+}
+.provinceDescription h2{
+    font-size: 1.6vh;
+    color: black;
+    padding: 5px;
+}
+.countryProvince{
+    height: 100%;
+    width: 10%;
+}
+.districtProvinceNo{
+    height: 100%;
+    width: 10%;
+}
+.zipWards{
+    height: 100%;
+    width: 10%;
+}
+.areaPopulation{
+    height: 100%;
+    width: 10%;
+}
+.majorAttractions{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0px 5px 0px;
+    background: radial-gradient(
+        at center, #3498db, #9b59b6
+       );
+}
+.majorAttractions h1{
+    color: white;
+}
+.part-one{
+    height: 100%;
+    width: 10%;
+    flex-grow: 2;
+    text-align: left;
+    padding: 150px 0px 0px 50px;
+}
+.part-one h1{
+    padding: 10px;
+}
+.divider{
+    height: 100%;
+    width: 0.5%;
+    background: black;
+    opacity: 0.5;
+}
+.part-two{
+    height: 100%;
+    width: 10%;
+    flex-grow: 2;
+    padding: 10px 0px 0px 50px;
+
+}
+.part-two h1{
+    padding: 10px;
+}
+.parkImages{
+    display: flex;
+    height: 40vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.park{
+    height: 40vh;
+    text-align: center;
+    border: 2px solid black;
+}
+.park img{
+    height: 100%;
+}
+.form-check{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}

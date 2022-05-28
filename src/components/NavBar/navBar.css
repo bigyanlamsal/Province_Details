@@ -1,0 +1,8 @@
+.container-fluid{
+    padding: 1em 1em 1em 1em;
+}
+.container-fluid a{
+     font-size: 2em;
+     padding: 0.5em;
+     margin: 0px 0px 0px 15px;
+}
