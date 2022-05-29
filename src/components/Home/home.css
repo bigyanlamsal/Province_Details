@@ -55,6 +55,9 @@
     flex-grow: 2;
     background: radial-gradient(#000000, #464963);
 }
+.content2 img{
+    object-fit: cover;
+}
 .content2 h1,h2{
     color: white;
     font-weight: bold;

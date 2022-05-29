@@ -25,21 +25,11 @@ const NavBar=()=>{
               <li className="nav-item">
                 <Link to="/sikkim" className="nav-link" >Sikkim</Link>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More..
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" >Action</a></li>
-                  <li><a className="dropdown-item" >Another action</a></li>
-                  <li><hr className="dropdown-divider"/></li>
-                  <li><a className="dropdown-item" >Something else here</a></li>
-                </ul>
-              </li>
+
 
             </ul>
             <form className="d-flex" role="search">
-              <button className="btn btn-outline-success" type="submit">Register here</button>
+              <Link to="/register" className="btn btn-outline-success" type="submit">Register here</Link>
             </form>
           </div>
         </div>

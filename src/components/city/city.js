@@ -153,10 +153,10 @@ const City = () => {
                 <h1>Parks</h1>
                 <div className="parkImages">
                       { cityVar.attractions.parks.map(parks=>
-                        <img src={parks.image}></img>)}
+                        <img src={parks.image} alt='park'></img>)}
                 </div>
             </div>
-            <div class="form-check">
+            <div class="form-checkBox">
             <label class="form-check-label" for="flexCheckDefault">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                     Checkmark if visited
