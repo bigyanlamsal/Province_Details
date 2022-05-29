@@ -1,5 +1,5 @@
 .mainContainer{
-    height: 120vh;
+     /* height: 120vh;  */
     text-align: center;
 }
 .top{
@@ -107,7 +107,7 @@
     width: 10%;
     flex-grow: 2;
     text-align: left;
-    padding: 150px 0px 0px 50px;
+    padding: 100px 0px 0px 50px;
 }
 .part-one h1{
     padding: 10px;
@@ -130,20 +130,36 @@
 }
 .parkImages{
     display: flex;
-    height: 40vh;
+    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .park{
-    height: 40vh;
     text-align: center;
-    border: 2px solid black;
 }
 .park img{
-    height: 100%;
+    max-height: 50%;
+    width: 25%;
+    flex: 1;
+    height: auto;
+    padding : 2px 10px 2px 10px;
 }
 .form-check{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+}
+.comma:last-child span{
+    display: none;
+}
+ul{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
 }
